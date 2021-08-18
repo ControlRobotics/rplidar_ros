@@ -12,6 +12,6 @@
   </node>
 
     <node pkg="tf" type="static_transform_publisher" name="tf_base_rplidar"
-    args="0 -0.152 0.2 0 0  0.0 /robot_base_footprint /laser_back 50" />
+    args="0 -0.152 0.2 0 0  0.0 /robot_base_footprint /laser_back 30" />
 
 </launch>
