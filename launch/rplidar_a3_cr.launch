@@ -5,7 +5,7 @@
     <param name="frame_id"            type="string" value="laser_back"/>
     <param name="inverted"            type="bool"   value="false"/>
     <param name="angle_compensate"    type="bool"   value="true"/>
-    <param name="scan_mode"           type="string" value="Sensitivity"/>
+    <param name="scan_mode"           type="string" value="Stability"/>
     <!--  Standard: max_distance: 16.0 m, Point number: 4.0K
           Express: max_distance: 16.0 m, Point number: 7.9K
           Boost: max_distance: 25.0 m, Point number: 15.9K
