@@ -22,7 +22,10 @@
 
   </node>
 
+  <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="tf_base_rplidar"
+  args="-0.295 -0.160 0.2 0 0  0.0 /robot_base_footprint /laser_back" /> -->
+
   <node pkg="tf2_ros" type="static_transform_publisher" name="tf_base_rplidar"
-  args="-0.295 -0.160 0.2 0 0  0.0 /robot_base_footprint /laser_back" />
+  args="0.261 0.159 0.183 2.56 0 0 /robot_base_footprint /laser_back" />
 
 </launch>
