@@ -39,6 +39,6 @@
 
   <!-- 4x4 AGV_2 -->
   <node pkg="tf2_ros" type="static_transform_publisher" name="tf_base_rplidar"
-  args="0.3585 0.155 0.183 5.43 0 0 /robot_base_footprint /laser_back" />
+  args="0.3585 0.155 0.183 5.517 0 0 /robot_base_footprint /laser_back" />
   
 </launch>
