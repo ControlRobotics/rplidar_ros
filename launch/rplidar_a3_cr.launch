@@ -27,7 +27,11 @@
   args="-0.295 -0.160 0.2 0 0  0.0 /robot_base_footprint /laser_back" /> -->
 
   <!-- New laser position (front left) -->
-  <node pkg="tf2_ros" type="static_transform_publisher" name="tf_base_rplidar"
-  args="0.261 0.159 0.183 2.56 0 0 /robot_base_footprint /laser_back" />
+  <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="tf_base_rplidar"
+  args="0.261 0.159 0.183 2.56 0 0 /robot_base_footprint /laser_back" /> -->
 
+  <!-- 4x4 AGV_2  -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="tf_base_rplidar"
+  args="0.3585 0.155 0.183 5.517 0 0 /robot_base_footprint /laser_back" />
+  
 </launch>
