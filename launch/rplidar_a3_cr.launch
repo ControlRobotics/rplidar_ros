@@ -1,6 +1,6 @@
 <launch>
 
-  <node name="rplidarNode"          pkg="rplidar_ros"  type="rplidarNode" output="screen">
+  <node name="rplidarNode"          pkg="rplidar_ros"  type="rplidarNode" output="screen" respawn="true" respawn_delay="30" >
 
     <!-- <param name="serial_port"         type="string" value="/dev/ttyUSB0"/> -->
     <param name="serial_port"         type="string" value="/dev/ttyUSB_sym_lidar_0"/>
